@@ -11,3 +11,7 @@ To start a game:
 To run tests manually:
 1. navigate to package root
 2. python -m pytest tests
+
+To format code:
+1. navigate to package root
+2. black fizzbuzz
