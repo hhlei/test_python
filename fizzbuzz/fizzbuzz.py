@@ -1,4 +1,4 @@
-def playFizzBuzz(rounds):
+def FizzBuzzify(rounds):
 
     if not isinstance(rounds, int):
         raise TypeError("That's not legal buddy")
@@ -18,7 +18,10 @@ def playFizzBuzz(rounds):
     output_str = output_str[:-2]
     return output_str
 
-if __name__ == "__main__":
+def playFizzBuzz():
     rounds = int(input('How many rounds do you want to play? '))
-    str_out = playFizzBuzz(rounds)
+    str_out = FizzBuzzify(rounds)
     print(str_out)
+
+if __name__ == "__main__":
+    playFizzBuzz()
