@@ -1,2 +1,5 @@
 # ignore these directories in root
 .venv
+
+# ignore these directories anywhere
+**/__pycache__
