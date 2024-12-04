@@ -1,5 +1,5 @@
 import pytest
-from test_python.fizzbuzz import playFizzBuzz
+from fizzbuzz.fizzbuzz import playFizzBuzz
 
 def test_playFizzBuzz_nominal():
     output_str = playFizzBuzz(15)
