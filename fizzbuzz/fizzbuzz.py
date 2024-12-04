@@ -7,7 +7,7 @@ def playFizzBuzz(rounds):
     
     output_str = ""
     for i in range(1, rounds+1): #range is [start, stop)
-        if (i % 2 == 0) and (i % 5==0):
+        if (i%3 == 0) and (i % 5==0):
             output_str += "Fizz Buzz, "
         elif (i%3==0):
             output_str += "Fizz, "
