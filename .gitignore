@@ -3,3 +3,4 @@
 
 # ignore these directories anywhere
 **/__pycache__
+**/.pytest_cache
